@@ -1,0 +1,117 @@
+/* common */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3F3B39;
+  background-color: #fff;
+}
+
+hr {
+  color: #270949;
+}
+
+h3, h5 {
+  color: #270949;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* header */
+header {
+  background-color: #eee;
+}
+
+/* main */
+main {
+  max-width: 1920px;
+}
+
+.title {
+  color: #270949;
+}
+
+.kyumin_img {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.kyumin_yokin_flow_img {
+  width: 100%;
+  height: auto;
+}
+
+.tr_responsive th {
+  width: 25%;
+}
+
+table thead tr th {
+  background-color: #270949 !important;
+  color: #fff !important;
+  vertical-align: middle;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.download_btn a:hover {
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: #eee;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  width: 75%;
+}
+
+.footer_logo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.copyright {
+  background-color: #666;
+}
+
+
+/* responsive - tablet */
+@media screen and (max-width:768px) {
+  .kyumin_img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .tr_responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tr_responsive th {
+    width: 100%;
+  }
+
+  .contact {
+    flex-direction: column;
+    width: 50%;
+  }
+}
