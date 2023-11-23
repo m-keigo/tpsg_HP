@@ -26,12 +26,43 @@ a {
 
 /* header */
 header {
-  background-color: #eee;
+  max-width: 1920px;
+  margin: 0 auto;
+  border-bottom: 1px solid #270949;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+
+.miraikikin-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.tpsg-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.miraikikin-tpsg {
+  max-width: 300px;
+  height: auto;
 }
 
 /* main */
 main {
   max-width: 1920px;
+}
+
+.title-wrapper {
+  background: #ddd;
 }
 
 .title {
@@ -52,14 +83,14 @@ main {
   width: 25%;
 }
 
+.phase-title {
+  color: #270949;
+}
+
 table thead tr th {
   background-color: #270949 !important;
   color: #fff !important;
   vertical-align: middle;
-}
-
-.text-nowrap {
-  white-space: nowrap;
 }
 
 .download_btn a:hover {
@@ -96,6 +127,27 @@ footer {
 
 /* responsive - tablet */
 @media screen and (max-width:768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .header-left, .header-right {
+    margin-left: 0;
+    width: 75%;
+  }
+
+  .miraikikin-logo, .tpsg-logo {
+    max-width: 45%;
+    height: auto;
+  }
+
+  .miraikikin-tpsg {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+
   .kyumin_img {
     width: 100%;
     margin: 0;
@@ -113,5 +165,11 @@ footer {
   .contact {
     flex-direction: column;
     width: 50%;
+  }
+}
+
+@media screen and (max-width:414px) {
+  .header-left, .header-right {
+    width: 100%;
   }
 }
