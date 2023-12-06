@@ -120,6 +120,16 @@ footer {
   background-color: #666;
 }
 
+.banner {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.banner p {
+  font-size: 24px;
+}
 
 /* responsive - tablet */
 @media screen and (max-width:768px) {
@@ -163,10 +173,20 @@ footer {
     flex-direction: column;
     width: 50%;
   }
+
+  .banner p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width:414px) {
   .header-left, .header-right {
     width: 100%;
+  }
+
+  .banner {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
   }
 }
