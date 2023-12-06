@@ -128,7 +128,7 @@ footer {
 }
 
 .banner p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* responsive - tablet */
@@ -175,7 +175,7 @@ footer {
   }
 
   .banner p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
