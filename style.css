@@ -65,6 +65,13 @@ main {
   color: #270949;
 }
 
+.news-item {
+  background-color: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
 .kyumin_img {
   width: 75%;
   margin: 0 auto;
