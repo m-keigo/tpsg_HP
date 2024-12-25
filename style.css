@@ -100,6 +100,12 @@ table thead tr th {
   color: #fff;
 }
 
+.link_txt{
+  font-feature-settings: "palt";
+  font-size: 16px;
+  line-height:auto;
+}
+
 /* footer */
 footer {
   background-color: #eee;
